@@ -1,5 +1,10 @@
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Open Sans', sans-serif;*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body{
 	margin: 0;
 	padding: 0;
@@ -97,7 +102,7 @@ header .custom_logo{
 	color: white;
  }
  /*aboutUs*/
- .aboutUs{}
+ /* .aboutUs{} */
  .aboutUs h3{
  	font-family: 'Montserrat', sans-serif;
  	font-size: 32px;
@@ -571,4 +576,7 @@ footer p{
   font-size: 13px;
   color: white!important;
 }
+
+.product{
+	margin-top: 50px !important;
 }
